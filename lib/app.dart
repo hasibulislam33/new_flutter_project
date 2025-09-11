@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'new.dart';
+import 'package:secon_app/home.dart';
+import 'just_practice.dart';
 
 class MyApp extends StatelessWidget{
   MyApp({super.key});
@@ -8,7 +9,8 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       title: "Flutter ostad ",
-      home: New_App(),
+      home: Practice(
+      ),
     );
   }
 }
